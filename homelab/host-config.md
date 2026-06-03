@@ -8,8 +8,8 @@ Operating System - Fedora Linux 43 (Workstation Edition)
 
 ## Storage Information:
 
-NAME                                          MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINTS
-zram0                                         251:0    0     8G  0 disk  [SWAP]
+|NAME|                                       |MAJ:MIN| |RM|   |SIZE| |RO| |TYPE|  |MOUNTPOINTS|
+|zram0|                                      |251:0|    |0|     |8G|  |0| |disk|  |[SWAP]|
 nvme1n1                                       259:0    0 931.5G  0 disk  
 ├─nvme1n1p1                                   259:1    0   1.9G  0 part  /boot
 ├─nvme1n1p2                                   259:2    0   954M  0 part  /boot/efi
