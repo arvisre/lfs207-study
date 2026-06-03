@@ -1,10 +1,10 @@
 # Host Computer Configuration:
 
-Processor - Intel(R) Core(TM) i5-10500 CPU @ 3.10GHz
-Memory - 64GB DDR4 RAM
-Storage - 1TB m.2 NVME SSD
-Network controller: Intel Corporation Wi-Fi 6E(802.11ax) AX210/AX1675
-Operating System - Fedora Linux 43 (Workstation Edition)
+Processor - Intel(R) Core(TM) i5-10500 CPU @ 3.10GHz  
+Memory - 64GB DDR4 RAM  
+Storage - 1TB m.2 NVME SSD  
+Network controller: Intel Corporation Wi-Fi 6E(802.11ax) AX210/AX1675  
+Operating System - Fedora Linux 43 (Workstation Edition)  
 
 ## Storage Information:
 
