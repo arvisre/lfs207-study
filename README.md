@@ -1,4 +1,3 @@
-Date - 03-June-2026
 # Linux Home Lab  
 
 **LFS207: Linux System Administration — Study Notes &amp; Labs**  
