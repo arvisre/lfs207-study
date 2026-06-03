@@ -6,7 +6,7 @@ Every chapter is documented with real terminal output, lab exercises, problems I
 
 ## Goal: 
 **LFCS — Linux Foundation Certified System Administrator**  
-**Start Date**: **YET TO START**
+**Start Date**: **YET TO START**  
 **Status**:
 **End Date**:  
 **Certification Date**:  
