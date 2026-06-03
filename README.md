@@ -1,6 +1,6 @@
 Date - 03-June-2026
 # Linux Home Lab
-LFS207: Linux System Administration — Study Notes &amp; Labs
+** LFS207: Linux System Administration — Study Notes &amp; Labs **
 A structured record of my hands-on learning through the Linux Foundation's Linux System Administration Essentials (LFS207) course. 
 Every chapter is documented with real terminal output, lab exercises, problems I encountered, and lessons learned.
 
