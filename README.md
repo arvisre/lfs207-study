@@ -14,8 +14,8 @@ About This Repository:
 This is not a copy of course material. It is a first-person record of what I actually did, what broke, and what I learned from fixing it. Each chapter documents real commands run in a real environment, with actual terminal output.
 
 Environment:
-Host Computer - Fedora Workstation 43
-Hypervisor - KVM/QEMU (libvirt / virt-manager)
-VM — Debian family  Ubuntu 24.04 LTS
-VM — RHEL family  Rocky Linux 10.2
-VM — SUSE family  openSUSE Leap 16
+Host Computer - Fedora Workstation 43  
+Hypervisor - KVM/QEMU (libvirt / virt-manager)  
+VM — Debian family  Ubuntu 24.04.4 LTS  
+VM — RHEL family  Rocky Linux 10.2  
+VM — SUSE family  openSUSE Leap 16  
