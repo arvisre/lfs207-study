@@ -24,9 +24,3 @@ Filesystem     Type      Size  Used Avail Use% Mounted on
 /dev/nvme1n1p5 xfs        44G   21G   23G  48% /isos
 /dev/nvme1n1p6 xfs       652G   21G  632G   4% /vms
 /dev/dm-0      ext4      137G  8.7G  121G   7% /home
-
-
-    
-
-
-
