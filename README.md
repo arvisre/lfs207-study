@@ -7,7 +7,7 @@ Every chapter is documented with real terminal output, lab exercises, problems I
 ## Goal: 
 **LFCS — Linux Foundation Certified System Administrator**  
 **Start Date**: **28-July-2026**  
-**Status**:  **WORK IN PROGRESS**
+**Status**:  **WORK IN PROGRESS**  
 **End Date**:  
 **Certification Date**:  
 
@@ -15,13 +15,13 @@ Every chapter is documented with real terminal output, lab exercises, problems I
 This is not a copy of course material. It is a first-person record of what I actually did, what broke, and what I learned from fixing it. Each chapter documents real commands run in a real environment, with actual terminal output.
 
 ## Environment:
-| Component | Details |
-|-----------|---------|
-| Host Computer | Fedora Workstation 43 |
-| Hypervisor | KVM/QEMU (libvirt / virt-manager) |
-| VM — Debian family | Ubuntu Server 24.04.4 LTS |
-| VM — RHEL family | Rocky Linux 9.8  |
-| VM — RHEL family | Rocky Linux 10.2  |
-| VM — SUSE family | openSUSE Leap 16 |
+| Component | Details |  
+|-----------|---------|  
+| Host Computer | Fedora Workstation 43 |  
+| Hypervisor | KVM/QEMU (libvirt / virt-manager) |  
+| VM — Debian family | Ubuntu Server 24.04.4 LTS |  
+| VM — RHEL family | Rocky Linux 9.8  |  
+| VM — RHEL family | Rocky Linux 10.2  |  
+| VM — SUSE family | openSUSE Leap 16 |  </br>  
 
-Note: The VMs mentioned above are Minimal Install.
+Note: The VMs mentioned above are Minimal Install.  
