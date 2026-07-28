@@ -24,6 +24,7 @@ This is not a copy of course material. It is a first-person record of what I act
 | VM — RHEL family | Rocky Linux 10.2  |  
 | VM — SUSE family | openSUSE Leap 16 |  </br>  
 
-Note: The Virtual Machines mentioned above are Minimal Install. </br>  
-Space allocated for Virtual Machines:  <img width="561" height="115" alt="Screenshot From 2026-07-28 20-42-12" src="https://github.com/user-attachments/assets/a06a6eb8-9c8d-494e-a15c-1589b42a9a95" /> </br>
+Note: The Virtual Machines mentioned above are Minimal Install. Each machine has a Primary Storage - SATA Disk - 35GB and 8GB of RAM. </br>  
+Space allocated for Virtual Machines: </br>  
+<img width="561" height="115" alt="Screenshot From 2026-07-28 20-42-12" src="https://github.com/user-attachments/assets/a06a6eb8-9c8d-494e-a15c-1589b42a9a95" /> </br>
 
