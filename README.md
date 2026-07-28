@@ -1,13 +1,13 @@
 # Linux Home Lab  
 
-**LFS207: Linux System Administration — Study Notes &amp; Labs**  
+## **LFS207: Linux System Administration — Study Notes &amp; Labs**  
 A structured record of my hands-on learning through the Linux Foundation's Linux System Administration Essentials (LFS207) course. 
 Every chapter is documented with real terminal output, lab exercises, problems I encountered, and lessons learned.
 
 ## Goal: 
 **LFCS — Linux Foundation Certified System Administrator**  
-**Start Date**: **YET TO START**  
-**Status**:  
+**Start Date**: **28-July-2026**  
+**Status**:  **WORK IN PROGRESS**
 **End Date**:  
 **Certification Date**:  
 
@@ -19,6 +19,9 @@ This is not a copy of course material. It is a first-person record of what I act
 |-----------|---------|
 | Host Computer | Fedora Workstation 43 |
 | Hypervisor | KVM/QEMU (libvirt / virt-manager) |
-| VM — Debian family | Ubuntu 24.04.4 LTS |
+| VM — Debian family | Ubuntu Server 24.04.4 LTS |
+| VM — RHEL family | Rocky Linux 9.8  |
 | VM — RHEL family | Rocky Linux 10.2  |
 | VM — SUSE family | openSUSE Leap 16 |
+
+Note: The VMs mentioned above are Minimal Install.
