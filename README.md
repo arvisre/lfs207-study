@@ -22,7 +22,8 @@ This is not a copy of course material. It is a first-person record of what I act
 | VM — Debian family | Ubuntu Server 24.04.4 LTS |  
 | VM — RHEL family | Rocky Linux 9.8  |  
 | VM — RHEL family | Rocky Linux 10.2  |  
-| VM — SUSE family | openSUSE Leap 16 |  </br>  
+| VM — SUSE family | openSUSE Leap 16 |
+
 The Virtual Machines mentioned above are Minimal Install. Each machine has a Primary Storage - SATA Disk - 35GB and 8GB of RAM. </br>  
 
 **Space allocated for Virtual Machines**: </br>  
