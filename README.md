@@ -17,7 +17,9 @@ This is not a copy of course material. It is a first-person record of what I act
 ## Environment:
 | Component | Details |  
 |-----------|---------|  
-| Host Computer | Intel(R) Core(TM) i5-10500 CPU - 64GB DDR4 RAM - 1TB m.2 NVME SSD |  
+| CPU | Intel(R) Core(TM) i5-10500 |
+| Memory | 64GB DDR4 RAM |
+| Storage | 1TB m.2 NVME SSD |  
 | Operating System | Fedora Workstation 43 |  
 
 | Component | Details |  
