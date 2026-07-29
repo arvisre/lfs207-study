@@ -6,4 +6,16 @@ In both in Rocky Linux 9.8 and 10.2 I have to add **sudo** permissions to my use
 3. Creating a file with the text **<userid> ALL=(ALL) ALL**  
 4. The above text input is a rule which applies to "userid" on "ALL" hosts (that particular system in my case), to run command as "any user", and to run "any command". </br>  
 
-## Observations and Learning: </br>  
+## Observation and Learning: </br>  
+As mentioned above, I created a file "as" using the touch command and made the text input using the nano editor. The course material had suggested that I use the command **sudo chmod 440 /etc/sudoers.d/as** or **sudo chmod 400 /etc/sudoers.d/as** to ensure the permissions for this file. </br>  
+
+As can be seen the image below, the default file permissions (rw-r--r--) (644) are applied to this file I created.  </br>  
+<img width="574" height="286" alt="Screenshot From 2026-07-29 15-42-54" src="https://github.com/user-attachments/assets/024700bb-135d-4212-bff8-e50ec1442ca4" /> </br>  
+I did not bother taking the extra step of modifying permissions because the directory **/etc/sudoers.d** is owned by user **root** and group **root** and this file also was owned by user **root** and group **root**. </br>  
+
+However on further research I learned that it does make sense to modify the permissions to 440 or the more conservative 400 for this file. Let me explain my understanding: </br>  
+The permissions for **/etc**, **/etc/sudoers.d/**, and **/etc/sudoers.d/as** as shown in the image below: </br>  
+<img width="597" height="153" alt="Screenshot From 2026-07-29 15-52-11" src="https://github.com/user-attachments/assets/1fdc5a8f-2196-409b-bb64-a7281a8af17f" /> </br>  
+
+
+
