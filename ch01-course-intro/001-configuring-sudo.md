@@ -17,8 +17,12 @@ The permissions for **/etc**, **/etc/sudoers.d/**, and **/etc/sudoers.d/as** as 
 Because the directory **/etc/sudoers.d/** does NOT provide any permission to **Other**, a normal user will not be able to list the contents of the directory, **cd** into the directory, or read the files inside the directory by providing the absolute path and filename. This can be confirmed from the image below: </br>  
 <img width="584" height="164" alt="Screenshot From 2026-07-29 16-07-41" src="https://github.com/user-attachments/assets/3a16e91c-5567-4a70-a20e-0e0de69d1f0d" /> </br>  
 
-However, the suggestion to set 440 or 400 on the file is a good practice. The command **sudo** has **setuid** enabled such that it runs with the **user owner** permissions - which is the root - and the sudoers file is parsed as root. Hence there is no need to provide permissions for the **Other** group. </br>  
+However, the suggestion to set 440 or 400 on the file is a good practice. The command **sudo** has **setuid** enabled such that it runs with the **user owner** permissions - which is the **root** user - and the **/etc/sudoers.d/<file> is parsed as **root**. Hence there is no need to provide permissions for the **Other** group. </br>  
 <img width="594" height="111" alt="Screenshot From 2026-07-29 16-15-01" src="https://github.com/user-attachments/assets/c2ce6e38-cd08-47f3-ac73-fd3f6c591052" /> </br>  
 
 ### A different scenario: </br>  
 "IF" the **/etc/sudoers.d/** directory had the permissions "drwxr-x--x" and the file had "-rw-r--r--", then a normal user may NOT be able to list the contents of the directory - because there is NO **read** permission for **Other**, but if he can guess what filename can be in that directory, he can use the **cat** command and read the contents - because there IS **execute** permission for **Other**.
+
+
+### What difference does modifying permissions make: </br>  
+Even if there is a mis-configuration at the **/etc/sudoers.d/** level, say someone mistakenly adds an **execute** permission for **Other**, the file still has restrictive permissions. </br>  
