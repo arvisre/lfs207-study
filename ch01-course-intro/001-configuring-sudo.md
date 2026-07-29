@@ -19,3 +19,6 @@ Because the directory **/etc/sudoers.d/** does NOT provide any permission to **O
 
 However, the suggestion to set 440 or 400 on the file is a good practice. The command **sudo** has **setuid** enabled such that it runs with the **user owner** permissions - which is the root - and the sudoers file is parsed as root. Hence there is no need to provide permissions for the **Other** group. </br>  
 <img width="594" height="111" alt="Screenshot From 2026-07-29 16-15-01" src="https://github.com/user-attachments/assets/c2ce6e38-cd08-47f3-ac73-fd3f6c591052" /> </br>  
+
+### A different scenario: </br>  
+"IF" the **/etc/sudoers.d/** directory had the permissions "drwxr-x--x" and the file had "-rw-r--r--", then a normal user may NOT be able to list the contents of the directory - because there is NO **read** permission for **Other**, but if he can guess what filename can be in that directory, he can use the **cat** command and read the contents - because there IS **execute** permission for **Other**.
