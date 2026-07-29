@@ -14,12 +14,8 @@ As can be seen the image below, the default file permissions (rw-r--r--) (644) a
 I did not bother taking the extra step of modifying permissions because the directory **/etc/sudoers.d** is owned by user **root** and group **root** and this file also was owned by user **root** and group **root**. </br>  
 The permissions for **/etc**, **/etc/sudoers.d/**, and **/etc/sudoers.d/as** as shown in the image below: </br>  
 <img width="597" height="153" alt="Screenshot From 2026-07-29 15-52-11" src="https://github.com/user-attachments/assets/1fdc5a8f-2196-409b-bb64-a7281a8af17f" /> </br>  
+Because the directory **/etc/sudoers.d/** does NOT provide any permission to **Other**, a normal user will not be able to list the contents of the directory, **cd** into the directory, or read the files inside the directory by providing the absolute path and filename. This can be confirmed from the image below: </br>  
+<img width="584" height="164" alt="Screenshot From 2026-07-29 16-07-41" src="https://github.com/user-attachments/assets/3a16e91c-5567-4a70-a20e-0e0de69d1f0d" /> </br>  
 
-
-
-However on further research I learned that it does make sense to modify the permissions to 440 or the more conservative 400 for this file. Let me explain my understanding: </br>  
-
-A regular user account can list the contents of **/etc** and **cd** into the directory. However, a regular user cannot list the contents of or **cd** into the **/etc/sudoers.d/** directory, because the group **Other** has no permissions.  
-However
-
-
+However, the suggestion to set 440 or 400 on the file is a good practice. The command **sudo** has **setuid** enabled such that it runs with the **user owner** permissions - which is the root - and the sudoers file is parsed as root. Hence there is no need to provide permissions for the **Other** group. </br>  
+<img width="594" height="111" alt="Screenshot From 2026-07-29 16-15-01" src="https://github.com/user-attachments/assets/c2ce6e38-cd08-47f3-ac73-fd3f6c591052" /> </br>  
