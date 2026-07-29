@@ -17,7 +17,10 @@ This is not a copy of course material. It is a first-person record of what I act
 ## Environment:
 | Component | Details |  
 |-----------|---------|  
-| Host Computer | Fedora Workstation 43 - 64GB RAM, 1TB NVME SSD |  
+| Host Computer | Intel(R) Core(TM) i5-10500 CPU - 64GB DDR4 RAM - 1TB m.2 NVME SSD |  
+| Operating System | Fedora Workstation 43 |  
+
+
 | Hypervisor | KVM/QEMU (libvirt / virt-manager) |  
 | VM — Debian family | Ubuntu Server 24.04.4 LTS |  
 | VM — RHEL family | Rocky Linux 9.8  |  
