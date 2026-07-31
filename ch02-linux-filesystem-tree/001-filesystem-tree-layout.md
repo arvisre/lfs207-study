@@ -25,9 +25,16 @@ This directory consists of the "device files" also known as "device nodes" that 
 <img width="606" height="152" alt="Screenshot From 2026-07-31 19-27-44" src="https://github.com/user-attachments/assets/0ac10962-8164-4285-8d33-bd2975fbd4ef" /> </br>  
 
 ### '/etc/' Directory  
+The '/etc' directory consists of Configuration files and Scripts and **cannot** contain executable files. Some of the files and directories that I have used in this directory are:  
+/etc/sudoers.d/  
+/etc/default/useradd
+/etc/passwd
+/etc/group
+/etc/shadow
+/etc/nsswitch.conf
+/etc/hosts
+/etc/resolv.conf
+/etc/os-release
+/etc/fstab </br>  
 
-
-
-
-
-
+### '/home' Directory  
