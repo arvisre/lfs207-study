@@ -17,4 +17,14 @@ After the Power On Self Test (POST) is complete, the configuration utility (in m
 <img width="1500" height="403" alt="Screenshot From 2026-07-31 18-44-52" src="https://github.com/user-attachments/assets/44bc9eba-121e-4d43-ae41-333fb7edb4a1" />  
 <img width="980" height="277" alt="Screenshot From 2026-07-31 18-45-52" src="https://github.com/user-attachments/assets/e68c8cd0-1988-4b28-8e99-952013a0c1c6" />  </br>  
 
+### '/dev' Directory
+This directory consists of the "device files" also known as "device nodes" that are connected to the system. The CPU, Physical Memory (RAM), Storage devices, Graphics card, Parallel ports - to name a few - are represented as special files in this directory.  
+<img width="516" height="455" alt="Screenshot From 2026-07-31 19-19-55" src="https://github.com/user-attachments/assets/d86da27f-6550-4deb-b5ce-e036f1d898e6" />  
+<img width="594" height="193" alt="Screenshot From 2026-07-31 19-22-55" src="https://github.com/user-attachments/assets/794818af-7613-443a-ac4d-128c137297bf" />  
+<img width="666" height="166" alt="Screenshot From 2026-07-31 19-16-43" src="https://github.com/user-attachments/assets/d315a553-5f04-49fe-a428-fef5f24018dc" />  
+<img width="606" height="152" alt="Screenshot From 2026-07-31 19-27-44" src="https://github.com/user-attachments/assets/0ac10962-8164-4285-8d33-bd2975fbd4ef" /> </br>  
+
+
+
+
 
