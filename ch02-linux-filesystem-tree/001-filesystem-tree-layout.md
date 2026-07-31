@@ -14,3 +14,7 @@ The **/bin** directory contains executable programs for both System Administrato
 
 ### '/boot' Directory  
 After the Power On Self Test (POST) is complete, the configuration utility (in my case UEFI) looks for the EFI system partition (ESP) which contains the **bootloader**. The bootloader's function is to load two components 1) the Kernel 2) initramfs into memory. These two components the **Kernel**(the file named vmlinuz-5.x.y or vmlinuz-6.x.y) and **initramfs**(initial RAM filesystem) are part of the **/boot** directory. The bootloader is mounted at **/boot/efi** in UEFI-based systems. In addition to these, the **/boot** directory consists of the files **config**, and **System.map**. The RHEL-based Rocky Linux system uses the term **initramfs** whereas the Debian-based Ubuntu Server system names it **initrd**(initial RAM disk).  
+<img width="1500" height="403" alt="Screenshot From 2026-07-31 18-44-52" src="https://github.com/user-attachments/assets/44bc9eba-121e-4d43-ae41-333fb7edb4a1" />  
+<img width="980" height="277" alt="Screenshot From 2026-07-31 18-45-52" src="https://github.com/user-attachments/assets/e68c8cd0-1988-4b28-8e99-952013a0c1c6" />  </br>  
+
+
