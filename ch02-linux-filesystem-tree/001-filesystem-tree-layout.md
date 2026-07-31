@@ -24,6 +24,9 @@ This directory consists of the "device files" also known as "device nodes" that 
 <img width="666" height="166" alt="Screenshot From 2026-07-31 19-16-43" src="https://github.com/user-attachments/assets/d315a553-5f04-49fe-a428-fef5f24018dc" />  
 <img width="606" height="152" alt="Screenshot From 2026-07-31 19-27-44" src="https://github.com/user-attachments/assets/0ac10962-8164-4285-8d33-bd2975fbd4ef" /> </br>  
 
+### '/etc/' Directory  
+
+
 
 
 
