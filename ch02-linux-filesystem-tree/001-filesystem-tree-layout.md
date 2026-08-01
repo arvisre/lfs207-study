@@ -38,3 +38,4 @@ The '/etc' directory consists of Configuration files and Scripts and **cannot** 
 /etc/fstab </br>  
 
 ### '/home' Directory  
+The **/home** directory is conventionally the place where users' personal data is stored. 
