@@ -41,7 +41,10 @@ The '/etc' directory consists of Configuration files and Scripts and **cannot** 
 The **/home** directory is conventionally the place where users' personal data is stored. One exception is that the **root** user has a separate Home Directory which is **/root**. </br>  
 <img width="583" height="624" alt="Screenshot From 2026-08-02 18-21-47" src="https://github.com/user-attachments/assets/b765b62d-27ac-40b5-b530-59c0594cc96a" /> </br>  
 In the Minimal Install version I don't find the directories that are found in the GUI version above.
-<img width="586" height="312" alt="Screenshot From 2026-08-02 18-35-59" src="https://github.com/user-attachments/assets/71d7a7a7-5e37-47e9-893b-5ec22857fed0" />
+<img width="586" height="312" alt="Screenshot From 2026-08-02 18-35-59" src="https://github.com/user-attachments/assets/71d7a7a7-5e37-47e9-893b-5ec22857fed0" /> </br>  
+In the command prompt, typing **cd** or **cd ~** takes the user to the respective home directory. Typing **echo $HOME** displays the value of the variable - which is the user's home directory:  
+<img width="474" height="310" alt="Screenshot From 2026-08-02 18-39-24" src="https://github.com/user-attachments/assets/482d58a0-0f21-4131-aab0-5611ce937425" />
+
 
 
 
