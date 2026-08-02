@@ -45,16 +45,9 @@ In the Minimal Install version I don't find the directories that are found in th
 In the command prompt, typing **cd** or **cd ~** takes the user to the respective home directory. Typing **echo $HOME** displays the value of the variable - which is the user's home directory:  
 <img width="474" height="310" alt="Screenshot From 2026-08-02 18-39-24" src="https://github.com/user-attachments/assets/482d58a0-0f21-4131-aab0-5611ce937425" /> </br>  
 
-
 ### '/lib' and '/lib64' Directories  
 These directories contain the shared libraries for the executable programs in **/bin** and **/sbin** and Kernel modules. While **/lib** is 32-bit, **/lib64** contains 64-bit shared libraries.
 **/lib** and **/lib64** are symbolically linked to **/usr/lib** and **/usr/lib64**.  
 <img width="657" height="142" alt="Screenshot From 2026-08-02 20-24-11" src="https://github.com/user-attachments/assets/07d841e4-dd32-4818-9a6e-934c301cb76e" /> </br>  
 
-
-
-
-
-
-
-
+### '/media' and '/mnt' Directories  
