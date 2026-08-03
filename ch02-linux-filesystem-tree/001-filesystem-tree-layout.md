@@ -51,3 +51,6 @@ These directories contain the shared libraries for the executable programs in **
 <img width="657" height="142" alt="Screenshot From 2026-08-02 20-24-11" src="https://github.com/user-attachments/assets/07d841e4-dd32-4818-9a6e-934c301cb76e" /> </br>  
 
 ### '/media' and '/mnt' Directories  
+The **/mnt** directory is where a SysAdmin would manually mount a filesystem - a disk or an ISO image or an Network share - for temporary access.  
+The **/media** directory is where the system would conventionally **auto-mount** a USB flash drive, a CD/DVD drive, or a SD card. However, currently USB flash drives are mounted to **/run/media/userid/devicelabel**.  
+I have tried to connect a USB Flash Drive to two virtual machines - one with a graphical desktop environment and the other which is a minimal install - to check the behaviour.  
