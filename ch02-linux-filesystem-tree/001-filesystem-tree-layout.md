@@ -40,14 +40,14 @@ The '/etc' directory consists of Configuration files and Scripts and **cannot** 
 ### '/home' Directory  
 The **/home** directory is conventionally the place where users' personal data is stored. One exception is that the **root** user has a separate Home Directory which is **/root**. </br>  
 <img width="583" height="624" alt="Screenshot From 2026-08-02 18-21-47" src="https://github.com/user-attachments/assets/b765b62d-27ac-40b5-b530-59c0594cc96a" /> </br>  
-In the Minimal Install version I don't find the directories that are found in the GUI version above.
+In the Minimal Install version I don't find the directories that are found in the GUI version above. </br>  
 <img width="586" height="312" alt="Screenshot From 2026-08-02 18-35-59" src="https://github.com/user-attachments/assets/71d7a7a7-5e37-47e9-893b-5ec22857fed0" /> </br>  
-In the command prompt, typing **cd** or **cd ~** takes the user to the respective home directory. Typing **echo $HOME** displays the value of the variable - which is the user's home directory:  
+In the command prompt, typing **cd** or **cd ~** takes the user to the respective home directory. Typing **echo $HOME** displays the value of the variable - which is the user's home directory: </br>  
 <img width="474" height="310" alt="Screenshot From 2026-08-02 18-39-24" src="https://github.com/user-attachments/assets/482d58a0-0f21-4131-aab0-5611ce937425" /> </br>  
 
 ### '/lib' and '/lib64' Directories  
 These directories contain the shared libraries for the executable programs in **/bin** and **/sbin** and Kernel modules. While **/lib** is 32-bit, **/lib64** contains 64-bit shared libraries.
-**/lib** and **/lib64** are symbolically linked to **/usr/lib** and **/usr/lib64**.  
+**/lib** and **/lib64** are symbolically linked to **/usr/lib** and **/usr/lib64**. </br>  
 <img width="657" height="142" alt="Screenshot From 2026-08-02 20-24-11" src="https://github.com/user-attachments/assets/07d841e4-dd32-4818-9a6e-934c301cb76e" /> </br>  
 
 ### '/media' and '/mnt' Directories  
@@ -56,5 +56,5 @@ The **/media** directory is where the system would conventionally **auto-mount**
 I have tried to connect a USB Flash Drive to two virtual machines - one with a GNOME Graphical Desktop environment and the other which is a minimal install - to check the behaviour.  
 The Virtual Machine with the Desktop Environment **auto-mounts** the flash drive at **/run/media/$USER/<device-label>, as shown in the image below: </br>  
 <img width="1542" height="357" alt="Screenshot From 2026-08-05 19-45-53" src="https://github.com/user-attachments/assets/b0eb118e-15b9-4743-9b27-792b1082ff4b" /> </br>  
-On further research I understand that a **daemon**("service" in the Windows world") named **udisks2** is responsible for auto-mounting flash drives. This information can be found using the **mount** command and searching for the device's label. This can be seen on the image above.
+On further research I understand that a **daemon**("service" in the Windows world") named **udisks2** is responsible for auto-mounting flash drives. This information can be found using the **mount** command and searching for the device's label. This can be seen on the image above.  
 Further research about **udisks2** reveals that this daemon may NOT be running in "Minimal Install" instances. Hence to check this, I executed the **systemctl status udisks2** command in the other Virtual Machine. 
