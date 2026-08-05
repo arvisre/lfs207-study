@@ -71,4 +71,9 @@ The simple usage of the **mount** command is: **mount <what-device-to-mount> <wh
 The image below shows the operations: </br>  
 <img width="1123" height="373" alt="Screenshot From 2026-08-05 20-21-43" src="https://github.com/user-attachments/assets/7417f6ff-81f2-4b83-875b-322412cf4aa5" />  
 The command to **Unmount** a device is **umount <Mount-Point>**. Hence, executing the command **sudo umount /media/myusb** unmounts the device. Image below: </br>  
-<img width="441" height="115" alt="Screenshot From 2026-08-05 20-35-44" src="https://github.com/user-attachments/assets/cc41f55a-3821-41ce-8d6e-6f7de2a2f415" />
+<img width="441" height="115" alt="Screenshot From 2026-08-05 20-35-44" src="https://github.com/user-attachments/assets/cc41f55a-3821-41ce-8d6e-6f7de2a2f415" /> </br>
+
+### '/opt' Directory  
+This directory consists of optional and add-on software packages. Software packages that did NOT come with the distribution and those that are NOT part of the system's software manager repositories are stored here. Sub-directories of **/opt** are named after the **vendor** or **package name** and all the files that are required by the software package **MUST** be bundled and stored in the package's directory. For example, my host computer has the Brave Browser and Mega Sync software applications installed; these applications were NOT part of the Linux Distribution and separate software package repositories were added. </br>  
+It can seen in the image below that under **/opt** I have two directories each representing the **Vendor/Package Name** and if more than one flavour of the Package from the same Vendor has been installed, then there are sub-directories with distinct Package Names. </br>  
+<img width="564" height="295" alt="Screenshot From 2026-08-05 22-57-01" src="https://github.com/user-attachments/assets/2f95651b-c0f1-4fa6-87a5-e94900849305" />
