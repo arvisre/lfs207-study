@@ -53,4 +53,7 @@ These directories contain the shared libraries for the executable programs in **
 ### '/media' and '/mnt' Directories  
 The **/mnt** directory is where a SysAdmin would manually mount a filesystem - a disk or an ISO image or an Network share - for temporary access.  
 The **/media** directory is where the system would conventionally **auto-mount** a USB flash drive, a CD/DVD drive, or a SD card. However, currently USB flash drives are mounted to **/run/media/userid/devicelabel**.  
-I have tried to connect a USB Flash Drive to two virtual machines - one with a graphical desktop environment and the other which is a minimal install - to check the behaviour.  
+I have tried to connect a USB Flash Drive to two virtual machines - one with a GNOME Graphical Desktop environment and the other which is a minimal install - to check the behaviour.  
+The Virtual Machine with the Desktop Environment **auto-mounts** the flash drive at **/run/media/$USER/<device-label>, as shown in the image below: </br>  
+<img width="1542" height="357" alt="Screenshot From 2026-08-05 19-45-53" src="https://github.com/user-attachments/assets/b0eb118e-15b9-4743-9b27-792b1082ff4b" /> </br>  
+On further research I understand that a **daemon** named **udisks2** is responsible for auto-mounting flash drives. This information can be found using the **mount** command and searching for the device's label. This can be seen on the image above.
