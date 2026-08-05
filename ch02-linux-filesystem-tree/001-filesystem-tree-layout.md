@@ -70,5 +70,5 @@ The simple usage of the **mount** command is: **mount <what-device-to-mount> <wh
 2. The **mount** command also requires elevated privileges. </br>
 The image below shows the operations: </br>  
 <img width="1123" height="373" alt="Screenshot From 2026-08-05 20-21-43" src="https://github.com/user-attachments/assets/7417f6ff-81f2-4b83-875b-322412cf4aa5" />  
-The command to **Unmount** a device is **umount <Mount-Point>**. Hence, executing the command **sudo umount /media/myusb** unmounts the device - as shown in the image below: </br>
+The command to **Unmount** a device is **umount <Mount-Point>**. Hence, executing the command **sudo umount /media/myusb** unmounts the device - as shown in the image below: </br>  
 <img width="441" height="115" alt="Screenshot From 2026-08-05 20-35-44" src="https://github.com/user-attachments/assets/cc41f55a-3821-41ce-8d6e-6f7de2a2f415" />  
