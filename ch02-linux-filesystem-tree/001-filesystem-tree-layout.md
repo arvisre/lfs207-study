@@ -27,14 +27,14 @@ This directory consists of the "device files" also known as "device nodes" that 
 ### '/etc/' Directory  
 The '/etc' directory consists of Configuration files and Scripts and **cannot** contain executable files. Some of the files and directories that I have used in this directory are:  
 /etc/sudoers.d/  
-/etc/default/useradd
-/etc/passwd
-/etc/group
-/etc/shadow
-/etc/nsswitch.conf
-/etc/hosts
-/etc/resolv.conf
-/etc/os-release
+/etc/default/useradd  
+/etc/passwd  
+/etc/group  
+/etc/shadow  
+/etc/nsswitch.conf  
+/etc/hosts  
+/etc/resolv.conf  
+/etc/os-release  
 /etc/fstab </br>  
 
 ### '/home' Directory  
