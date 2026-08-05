@@ -68,6 +68,5 @@ Connecting the flash drive to the "Minimal Install" Virtual Machine does nothing
 The simple usage of the **mount** command is: **mount <what-device-to-mount> <where-to-mount-it>**. In my case, I would mount the device **/dev/sdb1** to **/media/myusb/** </br>  
 1. This involves creating a **Mount Point** - the **myusb** directory under **/media** will be the **Mount Point**. Creating the **Mount Point** requires elevated privileges. </br>
 2. The **mount** command also requires elevated privileges. </br>
-The image below shows the operations: </br>
-
-<img width="1123" height="373" alt="Screenshot From 2026-08-05 20-21-43" src="https://github.com/user-attachments/assets/04305bd3-3ca2-45b5-99a6-8b2a0a92658c" />
+The image below shows the operations: </br>  
+<img width="1123" height="373" alt="Screenshot From 2026-08-05 20-21-43" src="https://github.com/user-attachments/assets/7417f6ff-81f2-4b83-875b-322412cf4aa5" />  
