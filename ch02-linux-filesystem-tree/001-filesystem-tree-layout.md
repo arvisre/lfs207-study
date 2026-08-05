@@ -63,3 +63,11 @@ On further research I understand that a **daemon**("service" in the Windows worl
 Further research about **udisks2** reveals that this daemon may NOT be running in "Minimal Install" instances. Hence to check this, I executed the **systemctl status udisks2** command in the other Virtual Machine. As shown in the image below, the **udisks2** daemon is not running in the Minimal Install Virtual Machine. This means that flash drives will not be auto-mounted in this system. Hence a SysAdmin would have to **manually** mount the drive to the conventional location - which is the **/mnt** directory. </br>  
 <img width="866" height="131" alt="Screenshot From 2026-08-05 20-09-12" src="https://github.com/user-attachments/assets/c4baf810-5f0d-420a-9b06-01b2b5d90a86" /> </br>  
 
+Connecting the flash drive to the "Minimal Install" Virtual Machine does nothing. As can be seen in the image below, the device appears in the list of **block devices** but has NOT been mounted. </br>  <img width="1075" height="254" alt="Screenshot From 2026-08-05 20-14-18" src="https://github.com/user-attachments/assets/ea3d0a00-87e7-4e91-99a4-a9d78d9d5f90" /> </br>  
+
+The simple usage of the **mount** command is: **mount <what-device-to-mount> <where-to-mount-it>**. In my case, I would mount the device **/dev/sdb1** to **/media/myusb/** </br>  
+1. This involves creating a **Mount Point** - the **myusb** directory under **/media** will be the **Mount Point**. Creating the **Mount Point** requires elevated privileges. </br>
+2. The **mount** command also requires elevated privileges. </br>
+The image below shows the operations: </br>
+
+<img width="1123" height="373" alt="Screenshot From 2026-08-05 20-21-43" src="https://github.com/user-attachments/assets/04305bd3-3ca2-45b5-99a6-8b2a0a92658c" />
