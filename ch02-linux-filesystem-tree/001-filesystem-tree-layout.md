@@ -57,7 +57,9 @@ I have tried to connect a USB Flash Drive to two virtual machines - one with a G
 The Virtual Machine with the Desktop Environment **auto-mounts** the flash drive at **/run/media/$USER/<device-label>, as shown in the image below: </br>  
 <img width="1542" height="357" alt="Screenshot From 2026-08-05 19-45-53" src="https://github.com/user-attachments/assets/b0eb118e-15b9-4743-9b27-792b1082ff4b" /> </br>  
 <img width="839" height="311" alt="Screenshot From 2026-08-05 20-08-03" src="https://github.com/user-attachments/assets/ad967267-058a-454b-99b9-3aa3dcc0c4b4" /> </br>  
-On further research I understand that a **daemon**("service" in the Windows world") named **udisks2** is responsible for auto-mounting flash drives. This information can be found using the **mount** command and searching for the device's label. This can be seen on the image above.  
+
+On further research I understand that a **daemon**("service" in the Windows world") named **udisks2** is responsible for auto-mounting flash drives. This information can be found using the **mount** command and searching for the device's label. This can be seen on the image above. </br>  
+
 Further research about **udisks2** reveals that this daemon may NOT be running in "Minimal Install" instances. Hence to check this, I executed the **systemctl status udisks2** command in the other Virtual Machine. As shown in the image below, the **udisks2** daemon is not running in the Minimal Install Virtual Machine. This means that flash drives will not be auto-mounted in this system. Hence a SysAdmin would have to **manually** mount the drive to the conventional location - which is the **/mnt** directory. </br>  
 <img width="866" height="131" alt="Screenshot From 2026-08-05 20-09-12" src="https://github.com/user-attachments/assets/c4baf810-5f0d-420a-9b06-01b2b5d90a86" /> </br>  
 
