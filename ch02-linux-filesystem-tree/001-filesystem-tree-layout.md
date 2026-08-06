@@ -95,3 +95,10 @@ In addition to the process directories, the **/proc** directory contains importa
 **/proc/mounts**  
 **/proc/partitions**  
 **/proc/sys/** </br>  
+
+
+### '/sys' Directory  
+Just as the '/dev' directory, the **/sys** directory is a pseudo-filesystem and acts as the mount point for **sysfs**. **sysfs** gathers information about the system and presents it in the form of directories and files. </br>  
+<img width="562" height="351" alt="Screenshot From 2026-08-06 23-06-35" src="https://github.com/user-attachments/assets/45da3cf0-f27e-44a3-b9ac-174621d91efc" />  
+Using the command **cat** I can look into the operation state of the Wireless Network Adapter and the Ethernet Adapter in my host computer. </br>  
+<img width="553" height="149" alt="Screenshot From 2026-08-06 23-11-48" src="https://github.com/user-attachments/assets/8da00cfe-5a89-423d-b2af-427fb3966c17" />  
