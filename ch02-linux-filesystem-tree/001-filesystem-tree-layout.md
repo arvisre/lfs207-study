@@ -76,4 +76,9 @@ The command to **Unmount** a device is **umount <Mount-Point>**. Hence, executin
 ### '/opt' Directory  
 This directory consists of optional and add-on software packages. Software packages that did NOT come with the distribution and those that are NOT part of the system's software manager repositories are stored here. Sub-directories of **/opt** are named after the **vendor** or **package name** and all the files that are required by the software package **MUST** be bundled and stored in the package's directory. For example, my host computer has the Brave Browser and Mega Sync software applications installed; these applications were NOT part of the Linux Distribution and separate software package repositories were added. </br>  
 It can seen in the image below that under **/opt** I have two directories each representing the **Vendor/Package Name** and if more than one flavour of the Package from the same Vendor has been installed, then there are sub-directories with distinct Package Names. </br>  
-<img width="564" height="295" alt="Screenshot From 2026-08-05 22-57-01" src="https://github.com/user-attachments/assets/2f95651b-c0f1-4fa6-87a5-e94900849305" />
+<img width="564" height="295" alt="Screenshot From 2026-08-05 22-57-01" src="https://github.com/user-attachments/assets/2f95651b-c0f1-4fa6-87a5-e94900849305" /> </br>  
+
+### '/proc' Directory  
+The **/proc** directory is a pseudo-filesystem: the contents of this directory are dynamically generated and stored in RAM and not on disk. On a non-running system this directory is empty. Other pseudo-filesystems are **/dev**, **/run**, and **/sys**. In the **/proc** directory, each running process has a directory named after the process' **PID**(Process ID). As shown in the image below, all running processes are listed and each process contains all related information within its directory. </br>  
+<img width="819" height="617" alt="Screenshot From 2026-08-06 18-34-25" src="https://github.com/user-attachments/assets/cf1330b8-7188-4fd3-9da1-5c378182d7ea" /> </br>  
+
