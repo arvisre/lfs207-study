@@ -105,5 +105,5 @@ Using the command **cat** I can look into the operation state of the Wireless Ne
 
 
 ### '/sbin' Directory  
-The **/sbin** directory consists of essential binaries for administration tasks such as booting, maintenance, and repair. The commands in this directory require elevated privileges for execution. This directory contains commands such as **fdisk**, **fsck**, **ifconfig**, **ip**, **mkfs**, and **user management** to name a few. Similar to the **/bin** directory this directory does NOT contain sub-directories. This directory is **Symbolically Linked** to the **/usr/sbin** directory. </br>  
+The **/sbin** directory consists of essential binaries for administration tasks such as booting, maintenance, and repair. The commands in this directory require elevated privileges for execution. This directory contains commands such as **fdisk**, **fsck**, **ifconfig**, **ip**, **mkfs**, and **user management** to name a few. Similar to the **/bin** directory this directory does **NOT** contain sub-directories. This directory is **Symbolically Linked** to the **/usr/sbin** directory. </br>  
 <img width="702" height="529" alt="Screenshot From 2026-08-06 23-52-53" src="https://github.com/user-attachments/assets/d750f8f6-7cc8-45b0-a9bf-170f1d3f36e2" />  
