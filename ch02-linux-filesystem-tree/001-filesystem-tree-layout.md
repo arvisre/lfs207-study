@@ -22,7 +22,8 @@ This directory consists of the "device files" also known as "device nodes" that 
 <img width="516" height="455" alt="Screenshot From 2026-07-31 19-19-55" src="https://github.com/user-attachments/assets/d86da27f-6550-4deb-b5ce-e036f1d898e6" />  
 <img width="594" height="193" alt="Screenshot From 2026-07-31 19-22-55" src="https://github.com/user-attachments/assets/794818af-7613-443a-ac4d-128c137297bf" />  
 <img width="666" height="166" alt="Screenshot From 2026-07-31 19-16-43" src="https://github.com/user-attachments/assets/d315a553-5f04-49fe-a428-fef5f24018dc" />  
-<img width="606" height="152" alt="Screenshot From 2026-07-31 19-27-44" src="https://github.com/user-attachments/assets/0ac10962-8164-4285-8d33-bd2975fbd4ef" /> </br>  
+<img width="606" height="152" alt="Screenshot From 2026-07-31 19-27-44" src="https://github.com/user-attachments/assets/0ac10962-8164-4285-8d33-bd2975fbd4ef" />  
+#### Note: The '/dev' directory is the mount point for the 'devtmpfs' pseudo-filesystem - this means that the contents of the '/dev' directory exist only on RAM. </br>  
 
 ### '/etc/' Directory  
 The '/etc' directory consists of Configuration files and Scripts and **cannot** contain executable files. Some of the files and directories that I have used in this directory are:  
