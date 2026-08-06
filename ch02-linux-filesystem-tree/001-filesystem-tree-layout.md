@@ -80,6 +80,7 @@ It can seen in the image below that under **/opt** I have two directories each r
 
 ### '/proc' Directory  
 The **/proc** directory is a pseudo-filesystem: the contents of this directory are dynamically generated and stored in RAM and not on disk. On a non-running system this directory is empty. Other pseudo-filesystems are **/dev**, **/run**, and **/sys**. In the **/proc** directory, each running process has a directory named after the process' **PID**(Process ID). As shown in the image below, all running processes are listed and each process contains all related information within its directory. </br>  
+<img width="1567" height="292" alt="Screenshot From 2026-08-06 19-02-05" src="https://github.com/user-attachments/assets/31572c5e-c49e-4105-9ef7-61f0d2cc2c73" /> </br>  
 <img width="819" height="617" alt="Screenshot From 2026-08-06 18-34-25" src="https://github.com/user-attachments/assets/cf1330b8-7188-4fd3-9da1-5c378182d7ea" /> </br>  
 In addition to the process directories, the **/proc** directory contains important virtual files/directory such as:  
 **/proc/cpuinfo**  
